@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#343743">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/netmob.css">
+    <script src="./js/loadx.js" defer></script>
+    <link rel="stylesheet" href="./glider/glider.min.css">
+    <script src="./glider/glider.js" defer></script>
+    <script src="./js/netmob.js" defer></script>
+    <link rel="stylesheet" href="https://nextra.nextra.bet/nextra/js/chartist-js-master/dist/chartist.min.css">
+    <title>Netbet Mobile</title>
+</head>
+<body>
+    
+
+    <div class="loadx" id="loadx">
+        <div class="loadx-inner">
+
+            <div class="loader-box" title="loader">
+                <img class="loader-box-img" src="./images/loadx.svg" alt="loader">
+            </div>
+            <div class="loader-logo" title="loader-img">
+                <img class="loader-box-img" src="./images/sitelogo.png" alt="loader">
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="nxnav-container">
+        <div class="nxnav-inner">
+
+            <div class="nxnav-a">
+                <div class="nxnav-a-a">
+                    <a class="nxnav-a-sign" href="./login.html">Sign In</a>
+                </div>
+
+                <div class="nxnav-a-b">
+                    <a href="./index.html" class="nxnav-a-link">
+                        <img class="nxnav-a-logo" src="./images/sitelogo.png" alt="sitelogo">
+                    </a>
+                </div>
+
+                <div class="nxnav-a-c">
+                    <a class="nxnav-a-reg" href="./register.html">Register</a>
+                    <!-- <span class="nxnav-a-menu">Menu</span> -->
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="nxmain-container">
+        <div class="nxmain-inner">
+
+            <!-- Toggle "open" class to show/hide -->
+            <div class="nxbox-container" id="nxbox-container">
+                <div class="nxbox-inner">
+
+                    <div class="nxbox-a">
+                        <div class="nxbox-a-inner">
+
+                            <!-- Add class "nxbox-1", "nxbox-2", "nxbox-3" and so-on to change icons via CSS -->
+                            <div class="nxbox-item nxbox-1">
+                                <a href="./todaysmatch.html" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Today</div>
+                                </a>
+                            </div>
+                            <div class="nxbox-item nxbox-2">
+                                <a href="./booking.html" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Booking</div>
+                                </a>
+                            </div>
+                            <div class="nxbox-item nxbox-3">
+                                <a href="./couponcheck.html" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Coupon</div>
+                                </a>
+                            </div>
+                            <div class="nxbox-item nxbox-4">
+                                <a href="./sports.html" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Sports</div>
+                                </a>
+                            </div>
+                            
+                            <div class="nxbox-item nxbox-6">
+                                <a href="./agentform.html" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Become Agent</div>
+                                </a>
+                            </div>
+                            <div class="nxbox-item nxbox-7">
+                                <a href="./lessthan2.html" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Odds Less Than</div>
+                                </a>
+                            </div>
+                            <div class="nxbox-item nxbox-8">
+                                <a href="https://ls.sir.sportradar.com/netbetuof" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Live Score</div>
+                                </a>
+                            </div>
+                            
+                            <div class="nxbox-item nxbox-10">
+                                <a href="https://retail.netbet.ng/Sport/sport" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Desktop View</div>
+                                </a>
+                            </div>
+                            <div class="nxbox-item nxbox-11">
+                                <a href="./live.html" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Live</div>
+                                </a>
+                            </div>
+                            <div class="nxbox-item nxbox-12">
+                                <a href="./help.html" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Help</div>
+                                </a>
+                            </div>
+                            <div class="nxbox-item nxbox-12">
+                                <a href="./profile.html" class="nxbox-item-link">
+                                    <div class="nxbox-ico"></div>
+                                    <div class="nxbox-txt">Profile</div>
+                                </a>
+                            </div>
+                            
+                            
+
+                        </div>
+                    </div>
+
+                    <div class="nxbox-b">
+                        <div class="nxbox-b-inner">
+
+                            <div class="nxbox-toggle" id="nxbox-toggle">
+                                <div class="nxbox-toggle-link">
+                                    <div class="nxbox-toggle-ico"></div>
+                                    <div class="nxbox-toggle-txt">All</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+                <div class="nxbox-overlay" id="nxbox-overlay"></div>
+            </div>
+            
+            <!-- using glider.js library for carosel/slider  -->
+            <div class="nxbanner-container">
+                <div class="nxbanner-inner">
+                    <div class="glider-contain">
+                        <div class="glider" id="nxmob-slider">
+                          <div class="nx-banner-a"><a class="nx-banner-link" href="#"><img class="nx-banner-img" loading="eager" src="./images/mobanner1.jpg" alt="mobanner"></a></div>
+                          <div class="nx-banner-a"><a class="nx-banner-link" href="#"><img class="nx-banner-img" loading="eager" src="./images/mobanner2.jpg" alt="mobanner"></a></div>
+                          <div class="nx-banner-a"><a class="nx-banner-link" href="#"><img class="nx-banner-img" loading="lazy" src="./images/mobanner3.jpg" alt="mobanner"></a></div>
+                          <div class="nx-banner-a"><a class="nx-banner-link" href="#"><img class="nx-banner-img" loading="lazy" src="./images/mobanner4.jpg" alt="mobanner"></a></div>
+                        </div>
+                      
+                        <button aria-label="Previous" class="glider-prev"></button>
+                        <button aria-label="Next" class="glider-next"></button>
+                        <!-- <div role="tablist" class="dots"></div> -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="nxtabs-holder">
+
+                <div class="nxtab-menu">
+                   <div class="nxtab active">Highlights</div>
+                   <div class="nxtab">In-Play</div>
+                   <div class="nxtab">Upcoming</div>
+                   <div class="nxtab">Today</div>
+                </div>
+
+                <div class="sorter">
+
+                    <!-- Add class "sorter-1", "sorter-2", "sorter-3" and so-on to change icons via CSS -->
+                   <div class="sorter-item sorter-1 active">
+                      <span class="sorter-icon"></span>
+                      <span>Soccer</span>
+                   </div>
+
+                   <div class="sorter-item sorter-2">
+                      <span class="sorter-icon"></span>
+                      <span>Tennis</span>
+                   </div>
+
+                   <div class="sorter-item sorter-3">
+                      <span class="sorter-icon"></span>
+                      <span>Basketball</span>
+                   </div>
+
+                   <div class="sorter-item sorter-4">
+                      <span class="sorter-icon"></span>
+                      <span>Hockey</span>
+                   </div>
+
+                   <div class="sorter-item sorter-5">
+                     <span class="sorter-icon"></span>
+                     <span>Volleyball</span>
+                   </div>
+
+                   <div class="sorter-item sorter-6">
+                     <span class="sorter-icon"></span>
+                     <span>Rugby</span>
+                   </div>
+
+                   <div class="sorter-item sorter-7">
+                     <span class="sorter-icon"></span>
+                     <span>Ice Hockey</span>
+                   </div>
+
+
+                </div>
+
+             </div>
+
+
+
+            <div class="bx-container">
+                <div class="bx-inner">
+
+                    <div class="bx-top" id="bx-top">
+                        <div class="bx-top-inner">
+                            <h4 class="bx-top-head">Most Popular Bets</h4>
+                            <span class="bx-top-arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="bx-down" id="bx-down">
+                        <div class="bx-down-inner">
+
+                            <div class="bx-down-heads">
+
+
+
+                                <div class="bx-down-headb">
+                                    <h5 class="bx-down-head">1</h5>
+                                    <h5 class="bx-down-head">X</h5>
+                                    <h5 class="bx-down-head">2</h5>
+                                </div>
+
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <!-- link tag for demo -->
+                                            <a href="./eventmarkets.html">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        
+                                        <!-- add class 'oddIncreased' for increased odds -->
+                                        <div class="bxbox-c-odd oddIncreased">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <!-- add class 'oddDecreased' for decreased odds -->
+                                        <div class="bxbox-c-odd oddDecreased">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <!-- add class 'oddlocked' for locking/disable odd selection -->
+                                        <div class="bxbox-c-odd oddlocked">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num ">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+            <div class="bx-container">
+                <div class="bx-inner">
+
+                    <div class="bx-top">
+                        <div class="bx-top-inner">
+                            <h4 class="bx-top-head">Upcoming Matches</h4>
+                            <span class="bx-top-arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="bx-down">
+                        <div class="bx-down-inner">
+
+                            <div class="bx-down-heads">
+
+                                <div class="bx-down-heada">
+                                    <!-- <h5 class="bx-down-title">Today</h5> -->
+                                </div>
+
+                                <div class="bx-down-headb">
+                                    <h5 class="bx-down-head">1</h5>
+                                    <h5 class="bx-down-head">X</h5>
+                                    <h5 class="bx-down-head">2</h5>
+                                </div>
+
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+
+            <div class="cgs-container">
+                <div class="cgs-inner">
+
+                    <div class="center-block" id="marketMoversBets">
+                        <div class="popular-bets">
+                           <div class="title">
+                              Market Movers
+                           </div>
+                        </div>
+                        <div class="widget-wrapper">
+                           <div class="most-searched">
+                              <p>Most searched odds by our users!</p>
+                              <img src="//westernbet.brlgcs.com/netbet/images/1x2.png" alt="">
+                           </div>
+                           <div class="teams-filter">
+                              <ul>
+                                 <li onclick="javascript:showGraph(1);" id="graphbutt1" class="active">Bologna FC - Spezia Calcio</li>
+                                 <li onclick="javascript:showGraph(2);" id="graphbutt2" class="">Parma Calcio - Cosenza Calcio</li>
+                                 <li onclick="javascript:showGraph(3);" id="graphbutt3">Udinese Calcio - ACF Fiorentina</li>
+                                 <li onclick="javascript:showGraph(4);" id="graphbutt4">FC Empoli - Brescia Calcio</li>
+                              </ul>
+                           </div>
+                           <div class="odds-graph-holder" id="marketMovers1" style="">
+                              <div class="match-odds-chart ct-chart" id="chart1">
+                                
+                              </div>
+                              <div class="section-odds">
+                                 <div class="starting-odds">
+                                    <div class="text">Starting odds:</div>
+                                    <div class="the-odds">
+                                       <div class="first-row">
+                                          <span>1</span>
+                                          <span>x</span>
+                                          <span>2</span>
+                                       </div>
+                                       <div class="second-row">
+                                          <span>1.73</span>
+                                          <span>4.00</span>
+                                          <span>4.40</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="current-odds">
+                                    <div class="text">Current odds:</div>
+                                    <div class="the-odds">
+                                       <div class="first-row">
+                                          <span>1</span>
+                                          <span>x</span>
+                                          <span>2</span>
+                                       </div>
+                                       <div class="second-row">
+                                          <span id="k24437844_1_1_" class="odd quote selected" onclick="AddToCoupon(24437844,1,1,'');">1.73</span>
+                                          <span id="k24437844_1_2_" class="odd quote" onclick="AddToCoupon(24437844,1,2,'');">4</span>
+                                          <span id="k24437844_1_3_" class="odd quote" onclick="AddToCoupon(24437844,1,3,'');">4.4</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="odds-graph-holder" id="marketMovers2" style="display: none;">
+                              <div class="match-odds-chart" id="chart2">
+                                 <svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-line" style="width: 100%; height: 100%;">
+                                    <g class="ct-grids">
+                                       <line x1="50" x2="50" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line x1="105.88888888888889" x2="105.88888888888889" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line x1="161.77777777777777" x2="161.77777777777777" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line x1="217.66666666666666" x2="217.66666666666666" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line x1="273.55555555555554" x2="273.55555555555554" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line x1="329.44444444444446" x2="329.44444444444446" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line x1="385.3333333333333" x2="385.3333333333333" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line x1="441.2222222222222" x2="441.2222222222222" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line x1="497.1111111111111" x2="497.1111111111111" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line x1="553" x2="553" y1="30" y2="130" class="ct-grid ct-horizontal"></line>
+                                       <line y1="130" y2="130" x1="50" x2="553" class="ct-grid ct-vertical"></line>
+                                       <line y1="105" y2="105" x1="50" x2="553" class="ct-grid ct-vertical"></line>
+                                       <line y1="80" y2="80" x1="50" x2="553" class="ct-grid ct-vertical"></line>
+                                       <line y1="55" y2="55" x1="50" x2="553" class="ct-grid ct-vertical"></line>
+                                       <line y1="30" y2="30" x1="50" x2="553" class="ct-grid ct-vertical"></line>
+                                    </g>
+                                    <g>
+                                       <g class="ct-series ct-series-a">
+                                          <path d="" class="ct-line"></path>
+                                       </g>
+                                       <g class="ct-series ct-series-b">
+                                          <path d="" class="ct-line"></path>
+                                       </g>
+                                       <g class="ct-series ct-series-c">
+                                          <path d="" class="ct-line"></path>
+                                       </g>
+                                    </g>
+                                    <g class="ct-labels">
+                                       <foreignObject style="overflow: visible;" x="50" y="135" width="55.888888888888886" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 56px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" x="105.88888888888889" y="135" width="55.888888888888886" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 56px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" x="161.77777777777777" y="135" width="55.888888888888886" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 56px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" x="217.66666666666666" y="135" width="55.888888888888886" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 56px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" x="273.55555555555554" y="135" width="55.888888888888914" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 56px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" x="329.44444444444446" y="135" width="55.88888888888886" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 56px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" x="385.3333333333333" y="135" width="55.88888888888886" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 56px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" x="441.2222222222222" y="135" width="55.888888888888914" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 56px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" x="497.1111111111111" y="135" width="55.888888888888914" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 56px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" x="553" y="135" width="30" height="20"><span class="ct-label ct-horizontal ct-end" xmlns="http://www.w3.org/2000/xmlns/" style="width: 30px; height: 20px;"></span></foreignObject>
+                                       <foreignObject style="overflow: visible;" y="105" x="10" height="25" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 25px; width: 30px;">0</span></foreignObject>
+                                       <foreignObject style="overflow: visible;" y="80" x="10" height="25" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 25px; width: 30px;">0.25</span></foreignObject>
+                                       <foreignObject style="overflow: visible;" y="55" x="10" height="25" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 25px; width: 30px;">0.5</span></foreignObject>
+                                       <foreignObject style="overflow: visible;" y="30" x="10" height="25" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 25px; width: 30px;">0.75</span></foreignObject>
+                                       <foreignObject style="overflow: visible;" y="0" x="10" height="30" width="30"><span class="ct-label ct-vertical ct-start" xmlns="http://www.w3.org/2000/xmlns/" style="height: 30px; width: 30px;">1</span></foreignObject>
+                                    </g>
+                                 </svg>
+                              </div>
+                              <div class="section-odds">
+                                 <div class="starting-odds">
+                                    <div class="text">Starting Odds:</div>
+                                    <div class="the-odds">
+                                       <div class="first-row">
+                                          <span>1</span>
+                                          <span>x</span>
+                                          <span>2</span>
+                                       </div>
+                                       <div class="second-row">
+                                          <span>1.26</span>
+                                          <span>6.00</span>
+                                          <span>10.00</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="current-odds">
+                                    <div class="text">Current Odds:</div>
+                                    <div class="the-odds">
+                                       <div class="first-row">
+                                          <span>1</span>
+                                          <span>x</span>
+                                          <span>2</span>
+                                       </div>
+                                       <div class="second-row">
+                                          <span id="k24228023_1_1_" class="odd quote" onclick="AddToCoupon(24228023,1,1,'');">1.26</span>
+                                          <span id="k24228023_1_2_" class="odd quote" onclick="AddToCoupon(24228023,1,2,'');">6</span>
+                                          <span id="k24228023_1_3_" class="odd quote" onclick="AddToCoupon(24228023,1,3,'');">10</span>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           
+                           
+                        </div>
+                     </div>
+
+
+
+                     <!-- Chart B  -->
+                     <div class="center-block percentage-block" id="hottestBets">
+                        <div class="popular-bets">
+                           <div class="title">
+                              Hottest Over/Under 2.5
+                           </div>
+                        </div>
+                        <div class="widget-wrapper">
+                           <div class="single-over-under">
+                              <div class="team-names">
+                                 <div class="home-team">Parma Calcio</div>
+                                 <div class="vs">vs</div>
+                                 <div class="away-team">Cosenza Calcio</div>
+                              </div>
+                              <div class="percentage-graph percentage-graph-1">
+                                 <div class="value"><span class="type">Ov</span> <br><span class="percentage">0%</span></div>
+                                 <svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-donut" style="width: 100%; height: 100%;">
+                                    <g class="ct-series ct-series-a">
+                                       <path d="M37.682,90.241A39.5,39.5,0,1,0,54.5,15" class="ct-slice-donut" ct:value="57" style="stroke-width: 20px;"></path>
+                                    </g>
+                                    <g class="ct-series ct-series-b">
+                                       <path d="M54.5,15A39.5,39.5,0,0,0,37.807,90.299" class="ct-slice-donut" ct:value="43" style="stroke-width: 20px;"></path>
+                                    </g>
+                                 </svg>
+                              </div>
+                              <div class="bets">
+                                 <div class="bet over">
+                                    <div class="label">Over 2.5</div>
+                                    <div id="k24228023_18_12_2_5" class="odd quote" onclick="AddToCoupon(24228023,18,12,'2.5');">2.99</div>
+                                 </div>
+                                 <div class="bet under">
+                                    <div class="label">Under 2.5</div>
+                                    <div id="k24228023_18_13_2_5" class="odd quote" onclick="AddToCoupon(24228023,18,13,'2.5');">1.33</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="single-over-under">
+                              <div class="team-names">
+                                 <div class="home-team">Udinese Calcio</div>
+                                 <div class="vs">vs</div>
+                                 <div class="away-team">ACF Fiorentina</div>
+                              </div>
+                              <div class="percentage-graph percentage-graph-2">
+                                 <div class="value"><span class="type">Ov</span> <br><span class="percentage">57%</span></div>
+                                 <svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-donut" style="width: 100%; height: 100%;">
+                                    <g class="ct-series ct-series-a">
+                                       <path d="M54.5,15A39.5,39.5,0,0,0,54.5,15" class="ct-slice-donut" ct:value="0" style="stroke-width: 20px;"></path>
+                                    </g>
+                                    <g class="ct-series ct-series-b">
+                                       <path d="M54.5,15A39.5,39.5,0,0,0,54.5,15" class="ct-slice-donut" ct:value="0" style="stroke-width: 20px;"></path>
+                                    </g>
+                                 </svg>
+                              </div>
+                              <div class="bets">
+                                 <div class="bet over">
+                                    <div class="label">Over 2.5</div>
+                                    <div id="k24228033_18_12_2_5" class="odd quote" onclick="AddToCoupon(24228033,18,12,'2.5');">1.61</div>
+                                 </div>
+                                 <div class="bet under">
+                                    <div class="label">Under 2.5</div>
+                                    <div id="k24228033_18_13_2_5" class="odd quote" onclick="AddToCoupon(24228033,18,13,'2.5');">2.09</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="single-over-under">
+                              <div class="team-names">
+                                 <div class="home-team">FC Empoli</div>
+                                 <div class="vs">vs</div>
+                                 <div class="away-team">Brescia Calcio</div>
+                              </div>
+                              <div class="percentage-graph percentage-graph-3">
+                                 <div class="value"><span class="type">Ov</span> <br><span class="percentage">52%</span></div>
+                                 <svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-donut" style="width: 100%; height: 100%;">
+                                    <g class="ct-series ct-series-a">
+                                       <path d="M37.682,90.241A39.5,39.5,0,1,0,54.5,15" class="ct-slice-donut" ct:value="57" style="stroke-width: 20px;"></path>
+                                    </g>
+                                    <g class="ct-series ct-series-b">
+                                       <path d="M56.98,15.078A39.5,39.5,0,0,0,37.807,90.299" class="ct-slice-donut" ct:value="44" style="stroke-width: 20px;"></path>
+                                    </g>
+                                 </svg>
+                              </div>
+                              <div class="bets">
+                                 <div class="bet over">
+                                    <div class="label">Over 2.5</div>
+                                    <div id="k24228021_18_12_2_5" class="odd quote" onclick="AddToCoupon(24228021,18,12,'2.5');">1.93</div>
+                                 </div>
+                                 <div class="bet under">
+                                    <div class="label">Under 2.5</div>
+                                    <div id="k24228021_18_13_2_5" class="odd quote" onclick="AddToCoupon(24228021,18,13,'2.5');">1.72</div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="single-over-under">
+                              <div class="team-names">
+                                 <div class="home-team">Torino FC</div>
+                                 <div class="vs">vs</div>
+                                 <div class="away-team">Virtus Entella</div>
+                              </div>
+                              <div class="percentage-graph percentage-graph-4">
+                                 <div class="value"><span class="type">Ov</span> <br><span class="percentage">48%</span></div>
+                                 <svg xmlns:ct="http://gionkunz.github.com/chartist-js/ct" width="100%" height="100%" class="ct-chart-donut" style="width: 100%; height: 100%;">
+                                    <g class="ct-series ct-series-a">
+                                       <path d="M59.451,93.689A39.5,39.5,0,0,0,54.5,15" class="ct-slice-donut" ct:value="48" style="stroke-width: 20px;"></path>
+                                    </g>
+                                    <g class="ct-series ct-series-b">
+                                       <path d="M56.98,15.078A39.5,39.5,0,1,0,59.587,93.671" class="ct-slice-donut" ct:value="53" style="stroke-width: 20px;"></path>
+                                    </g>
+                                 </svg>
+                              </div>
+                              <div class="bets">
+                                 <div class="bet over">
+                                    <div class="label">Over 2.5</div>
+                                    <div id="k24228031_18_12_2_5" class="odd quote" onclick="AddToCoupon(24228031,18,12,'2.5');">1.88</div>
+                                 </div>
+                                 <div class="bet under">
+                                    <div class="label">Under 2.5</div>
+                                    <div id="k24228031_18_13_2_5" class="odd quote" onclick="AddToCoupon(24228031,18,13,'2.5');">1.50</div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+
+
+                     <!-- Chart C  -->
+                     <div class="center-block" id="dailyBets">
+                        <div class="popular-bets">
+                           <div class="title">
+                              Match Of The Day - Coppa Italia 
+                           </div>
+                        </div>
+                        <div class="widget-wrapper">
+                           <div class="match-of-the-day-text">
+                              Our users are placing the following bets 
+                           </div>
+                           <div class="match-of-the-day">
+                              <div class="teams">
+                                 <div>
+                                    <div class="team-home">Bologna FC</div>
+                                    <div class="type">1</div>
+                                 </div>
+                                 <div>
+                                    <div class="type">x</div>
+                                 </div>
+                                 <div>
+                                    <div class="team-away">Spezia Calcio</div>
+                                    <div class="type">2</div>
+                                 </div>
+                              </div>
+                              <div class="odd-selection">
+                                 <div class="selection">1.73</div>
+                                 <div class="selection">4.00</div>
+                                 <div class="selection">4.40</div>
+                              </div>
+                              <div class="odd-bars">
+                                 <div class="dividers">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                 </div>
+                                 <div class="single-bar">
+                                    <div class="bar" style="width: 85%;">
+                                       <div class="inner"></div>
+                                    </div>
+                                 </div>
+                                 <div class="single-bar">
+                                    <div class="bar" style="width: 54%;">
+                                       <div class="inner"></div>
+                                    </div>
+                                 </div>
+                                 <div class="single-bar">
+                                    <div class="bar" style="width: 22%;">
+                                       <div class="inner"></div>
+                                    </div>
+                                 </div>
+                              </div>
+                              <div class="percentages">
+                                 <div class="percentage">85%</div>
+                                 <div class="percentage">54%</div>
+                                 <div class="percentage">22%</div>
+                              </div>
+                              <div class="odds-block-type-percentages">
+                                 <div class="single-odd-block">
+                                    <div class="label">Over/Under (2.5)</div>
+                                    <div class="odd-type-row">
+                                       <div class="percentage">
+                                          57%
+                                          <span class="type">Ov. 2.5</span>
+                                       </div>
+                                       <div class="odd-holder">
+                                          <div id="k24437844_18_12_2_5" class="odd quote" onclick="AddToCoupon(24437844,18,12,'2.5');">1.6</div>
+                                       </div>
+                                    </div>
+                                    <div class="odd-type-row">
+                                       <div class="percentage">
+                                          43%
+                                          <span class="type">Un. 2.5</span>
+                                       </div>
+                                       <div class="odd-holder">
+                                          <div id="k24437844_18_13_2_5" class="odd quote" onclick="AddToCoupon(24437844,18,13,'2.5');">2.11</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="single-odd-block">
+                                    <div class="label">GG/NG</div>
+                                    <div class="odd-type-row">
+                                       <div class="percentage">
+                                          28%
+                                          <span class="type">GG</span>
+                                       </div>
+                                       <div class="odd-holder">
+                                          <div id="k24437844_29_74_" class="odd quote" onclick="AddToCoupon(24437844,29,74,'');">1.6</div>
+                                       </div>
+                                    </div>
+                                    <div class="odd-type-row">
+                                       <div class="percentage">
+                                          55%
+                                          <span class="type">NG</span>
+                                       </div>
+                                       <div class="odd-holder">
+                                          <div id="k24437844_29_76_" class="odd quote" onclick="AddToCoupon(24437844,29,76,'');">5.22</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="single-odd-block">
+                                    <div class="label">Combo</div>
+                                    <div class="odd-type-row">
+                                       <div class="percentage">
+                                          99%
+                                          <span class="type">GG&amp;Ov2.5</span>
+                                       </div>
+                                       <div class="odd-holder">
+                                          <div id="k24437844_36_90_2_5" class="odd quote" onclick="AddToCoupon(24437844,36,90,'2.5');">1.87</div>
+                                       </div>
+                                    </div>
+                                    <div class="odd-type-row">
+                                       <div class="percentage">
+                                          85%
+                                          <span class="type">GG&amp;Un2.5</span>
+                                       </div>
+                                       <div class="odd-holder">
+                                          <div id="k24437844_36_92_2_5" class="odd quote" onclick="AddToCoupon(24437844,36,92,'2.5');">6.32</div>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!-- Floating Nav code below ----------------------------------- -->
+
+    <div class="flnav">
+        <div class="flnav-inner">
+
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <!-- Add class "flnav-1", "flnav-2", "flnav-3" and so-on to change icons via CSS -->
+                    <a class="flnav-item-link flnav-1" href="./sports.html">Menu</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-2 active" href="./index.html">Home</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-3" href="./live.html">Live</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-4" href="./betslip.html">Betslip</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-5" href="./register.html">Register</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- <div class="ct-chart"></div> -->
+
+    <!-- <script type="text/javascript" src="https://nextrajs.nextra.bet/js/jquery.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://nextrajs.nextra.bet/js/jquery-ui.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://nextrajs.nextra.bet/js/jquery.mCustomScrollbar.concat.min.js"></script> -->
+    <!-- <script type="text/javascript" src="https://test.nextra.bet/Sport/modules/sport.js"></script> -->
+    <!-- <script type="text/javascript" src="https://test.nextra.bet/Sport/js/app.js"></script> -->
+    <!-- <script type="text/javascript" src="./js/test.js"></script> -->
+
+    <!-- Chart library- Chartist JS  -->
+    <script type="text/javascript" src="https://nextrajs.nextra.bet/js/chartist-js-master/dist/chartist.min.js"></script>
+    <!-- Chart library plugin (to show point values)- Chartist JS  -->
+    <script type="text/javascript" src="https://nextrajs.nextra.bet/js/chartist-js-master/dist/chartist-plugin-pointlabels.min.js"></script>
+
+</body>
+</html>

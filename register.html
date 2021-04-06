@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/netmob.css">
+    <script src="./js/loadx.js" defer></script>
+    <script src="./js/register.js" defer></script>
+    <title>Register</title>
+</head>
+<body>
+
+
+    <div class="loadx" id="loadx">
+        <div class="loadx-inner">
+
+            <div class="loader-box" title="loader">
+                <img class="loader-box-img" src="./images/loadx.svg" alt="loader">
+            </div>
+            <div class="loader-logo" title="loader-img">
+                <img class="loader-box-img" src="./images/sitelogo.png" alt="loader">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nxnav-container">
+        <div class="nxnav-inner">
+
+            <div class="nxnav-a">
+                <div class="nxnav-a-a">
+                    <h3 class="nxnav-a-log">register</h3>
+                </div>
+                
+                <div class="nxnav-a-b">
+                </div>
+                
+                <div class="nxnav-a-c">
+                    <!-- <a class="nxnav-a-reg" href="#">Register</a> -->
+                    <a href="./index.html" class="nxnav-a-home">Home</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div class="nxlog">
+        <div class="nxlog-inner">
+
+
+            <div class="nxlog-img">
+                <div class="nxlog-img-scr"></div>
+            </div>
+
+
+            <div class="nxreg">
+                <div class="nxreg-inner">
+                    <form action="" class="nxreg-form">
+
+                        <div class="nxreg-heads">
+                            <div class="nxreg-head active" id="step-1">
+                                <span class="nxreg-head-num">1</span>
+                                <h4 class="nxreg-head-txt">step 1</h4>
+                            </div>
+                            <div class="nxreg-head" id="step-2">
+                                <span class="nxreg-head-num">2</span>
+                                <h4 class="nxreg-head-txt">step 2</h4>
+                            </div>
+
+                        </div>
+
+
+                        <!-- Add step-switch to switch -->
+                        <div class="nxreg-content" id="nxreg-content">
+                            <div class="nxreg-a">
+                                <div class="nxreg-a-top">
+
+                                    <div class="nxreg-a-head">
+                                        <h4 class="nxreg-a-head-txt">account details</h4>
+                                    </div>
+    
+                                    <div class="nxreg-a-content">
+                                        
+                                        <div class="nxreg-box">
+                                            <div class="nxreg-box-a">
+                                                <label for="" class="nxlabel">Username*</label>
+                                            </div>
+                                            <div class="nxreg-box-b">
+                                                <input type="text" class="nxfield" placeholder="Username">
+                                            </div>
+                                        </div>
+                                        <div class="nxreg-box">
+                                            <div class="nxreg-box-a">
+                                                <label for="" class="nxlabel">Password*</label>
+                                            </div>
+                                            <div class="nxreg-box-b">
+                                                <input type="password" id="nxreg-pass" class="nxfield" placeholder="Password">
+                                                <span class="showpass" id="showpass"></span>
+                                            </div>
+                                        </div>
+                                        <div class="nxreg-box">
+                                            <div class="nxreg-box-a">
+                                                <label for="" class="nxlabel">First Name*</label>
+                                            </div>
+                                            <div class="nxreg-box-b">
+                                                <input type="text" class="nxfield" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="nxreg-box">
+                                            <div class="nxreg-box-a">
+                                                <label for="" class="nxlabel">Last Name*</label>
+                                            </div>
+                                            <div class="nxreg-box-b">
+                                                <input type="text" class="nxfield" placeholder="Last Name">
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="nxreg-a-bot">
+                                    <p class="nxreg-a-para">Your first and last name should match the details that appear on your bank account</p>
+
+                                    <div class="nxreg-btns">
+                                        <span class="nxreg-btn cancel stop-btn" onclick="history.back()">cancel</span>
+                                        <span class="nxreg-btn info-btn" id="nxt-btn">next</span>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="nxreg-a">
+                                <div class="nxreg-a-top">
+
+                                    <div class="nxreg-a-head">
+                                        <h4 class="nxreg-a-head-txt">account details</h4>
+                                    </div>
+
+                                    <div class="nxreg-a-content">
+                                        
+                                        <div class="nxreg-box">
+                                            <div class="nxreg-box-a">
+                                                <label for="" class="nxlabel">Mobile Number*</label>
+                                            </div>
+                                            <div class="nxreg-box-b">
+                                                <div class="nxmob">
+                                                    <select name="" id="" class="nxmob-select">
+                                                        <option value="+234">+234</option>
+                                                        <option value="+234">+971</option>
+                                                        <option value="+234">+011</option>
+                                                    </select>
+                                                    <input type="text" class="nxmob-num" placeholder="e.g 12345678">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="nxreg-box">
+                                            <div class="nxreg-box-a">
+                                                <label for="" class="nxlabel">Email*</label>
+                                            </div>
+                                            <div class="nxreg-box-b">
+                                                <input type="email" class="nxfield" placeholder="Email">
+                                            </div>
+                                        </div>
+
+                                        <div class="nxreg-box">
+                                            <div class="nxreg-box-a">
+                                                <label for="" class="nxlabel">Date of Birth*</label>
+                                            </div>
+                                            <div class="nxreg-box-b">
+                                                <div class="nxdob">
+                                                    <select name="" class="nxdob-day">
+                                                        <option value="1">1</option>
+                                                        <option value="2">2</option>
+                                                        <option value="3">3</option>
+                                                    </select>
+                                                    <select name="" class="nxdob-month">
+                                                        <option value="1">Jan</option>
+                                                        <option value="2">Feb</option>
+                                                        <option value="3">Mar</option>
+                                                    </select>
+                                                    <select name="" class="nxdob-year">
+                                                        <option value="1990">1990</option>
+                                                        <option value="1991">1991</option>
+                                                        <option value="1992">1992</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="nxreg-box">
+                                            <div class="nxreg-box-a">
+                                                <label for="" class="nxlabel">State of Residence*</label>
+                                            </div>
+                                            <div class="nxreg-box-b">
+                                                <select name="" class="nxreg-select">
+                                                    <option value=""></option>
+                                                    <option value="abia">Abia</option>
+                                                    <option value="adamawa">Adamawa</option>
+                                                    <option value="brono">Brono</option>
+                                                </select>
+                                            </div>
+                                        </div>
+
+                                        <div class="nxreg-age">
+                                            <div class="check">
+                                                <input class="check-age" id="check-age" type="checkbox">
+                                                <span class="checkmark"></span>
+                                            </div>
+                                            <label for="check-age" class="nxreg-age-txt">I confirm that I am at least 18 years old and I accept the Age Verification and <a href="#">Privacy Policy</a>, and that I understand and accept the General Terms and Conditions.</label>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="nxreg-a-bot">
+
+                                    <div class="nxreg-btns">
+                                        <span class="nxreg-btn cancel stop-btn" id="back-btn">back</span>
+                                        <button type="submit" class="nxreg-sub green go-btn">Register</button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Floating Nav code below ----------------------------------- -->
+
+    <div class="flnav">
+        <div class="flnav-inner">
+
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-1" href="#">Menu</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-2" href="./index.html">Home</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-3" href="./prema-a.html">Live</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-4" href="#">Coupon</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-5 active" href="./register.html">Register</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    
+
+
+</body>
+</html>

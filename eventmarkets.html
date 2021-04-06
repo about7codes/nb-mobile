@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/netmob.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <script src="./js/loadx.js" defer></script>
+    <script src="./js/eventmarkets.js" defer></script>
+    <title>Event Markets</title>
+</head>
+<body>
+
+
+    <div class="loadx" id="loadx">
+        <div class="loadx-inner">
+
+            <div class="loader-box" title="loader">
+                <img class="loader-box-img" src="./images/loadx.svg" alt="loader">
+            </div>
+            <div class="loader-logo" title="loader-img">
+                <img class="loader-box-img" src="./images/sitelogo.png" alt="loader">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nxnav-container">
+        <div class="nxnav-inner">
+
+            <div class="nxnav-a">
+                <div class="nxnav-a-a">
+                    <a class="nxnav-a-back" href="#" onclick="history.back()"></a>
+                    <a class="nxnav-a-sign" href="./login.html">Sign In</a>
+                </div>
+
+                <div class="nxnav-a-b">
+                    <a href="./index.html" class="nxnav-a-link">
+                        <img class="nxnav-a-logo" src="./images/sitelogo.png" alt="sitelogo">
+                    </a>
+                </div>
+
+                <div class="nxnav-a-c">
+                    <span class="nxnav-a-menu">Menu</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="nxmain-container">
+        <div class="nxmain-inner">
+
+            
+            <div  class="event-card">
+                <div  class="event-head">
+
+                    <div class="ev-item-a">
+                        <span class="ev-badge">LIVE!</span>
+                        <span class="ev-event">First Game,</span>
+                        <span class="ev-num">45</span>
+                        <span class="ev-ico"></span>
+                        <span class="ev-name">JAP - J.LEAGUE</span>
+                    </div>
+                    
+                </div>
+
+                <div  class="match-score">
+                   <div  class="home-team">
+                      <div  class="team-name"> Fortuna Dusseldorf </div>
+                      <div  class="team-score">0</div>
+                   </div>
+                   <div  class="ev-mid">-</div>
+                   <div  class="away-team">
+                      <div  class="team-score">0</div>
+                      <div  class="team-name">Sandhausen </div>
+                   </div>
+                </div>
+
+                <div class="live-feed-container"></div>
+
+                <div class="live-feed-btn go-btn">
+                   <i class="fa fa-expand lf-ico"></i>
+                   <div class="live-feed-txt"> Toggle Live Feed</div>
+                </div>
+            </div>
+
+
+            <div class="mola-container">
+                <div class="mola-inner">
+
+                    <div  class="mola-head">
+                        <div  class="mola-head-title"> Choose markets to show:</div>
+                        <div  class="mola-dropdown">
+                           <select name="" id="" class="mola-select nxreg-select">
+                               <option value="1">All</option>
+                               <option value="2">Main</option>
+                               <option value="3">Over/Under</option>
+                               <option value="4">Goals</option>
+                               <option value="5">Handicap</option>
+                               <option value="6">Correct Score</option>
+                           </select>
+                        </div>
+                    </div>
+
+
+                    <div class="mola-content">
+
+                        <div  class="azbox-market">
+                            <div  class="azbox-market-inner">
+                                <div  class="azbox-market-top">
+                                    <div  class="title"> 1X2 </div>
+                                    <div  class="az-caret"><i class="fa fa-caret-right"></i></div>
+                                </div>
+                                <div  class="azbox-odds">
+                                    <div  class="azbox-odds-inner">
+                                        <div  class="azodd-wrapper" >
+                                            <div  class="selection-name"> 1 </div>
+                                            <div class="live-odd solo-odd oddIncreased">
+                                                <div class="odd-value"> 1.09 </div>
+                                            </div>
+                                        </div>
+                                        <div  class="azodd-wrapper" >
+                                            <div  class="selection-name"> X </div>
+                                            <div  class="live-odd solo-odd oddDecreased" >
+                                                <div class="odd-value"> 7.25 </div>
+                                            </div>
+                                        </div>
+                                        <div  class="azodd-wrapper" >
+                                            <div  class="selection-name"> 2 </div>
+                                            <div  class="live-odd solo-odd oddlocked" >
+                                                <div class="odd-value"> 50.00 </div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  class="azbox-market">
+                            <div  class="azbox-market-inner">
+                                <div  class="azbox-market-top">
+                                    <div  class="title"> Double Chance </div>
+                                    <div  class="az-caret"><i class="fa fa-caret-right"></i></div>
+                                </div>
+                                <div  class="azbox-odds">
+                                    <div  class="azbox-odds-inner">
+                                        <div  class="azodd-wrapper" >
+                                            <div  class="selection-name"> 1X </div>
+                                            <div class="live-odd solo-odd">
+                                                <div class="odd-value"> 1.09 </div>
+                                            </div>
+                                        </div>
+                                        <div  class="azodd-wrapper" >
+                                            <div  class="selection-name"> 12 </div>
+                                            <div  class="live-odd solo-odd" >
+                                                <div class="odd-value"> 7.25 </div>
+                                            </div>
+                                        </div>
+                                        <div  class="azodd-wrapper" >
+                                            <div  class="selection-name"> X2 </div>
+                                            <div  class="live-odd solo-odd" >
+                                                <div class="odd-value"> 50.00 </div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div  class="azbox-market">
+                            <div  class="azbox-market-inner">
+                                <div  class="azbox-market-top">
+                                    <div  class="title"> O/U (2.5) </div>
+                                    <div  class="az-caret"><i class="fa fa-caret-right"></i></div>
+                                </div>
+                                <div  class="azbox-odds">
+                                    <div  class="azbox-odds-inner">
+                                        <div  class="azodd-wrapper" >
+                                            <div  class="selection-name"> Over </div>
+                                            <div class="live-odd solo-odd">
+                                                <div class="odd-value"> 1.60 </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div  class="azodd-wrapper" >
+                                            <div  class="selection-name"> Under </div>
+                                            <div  class="live-odd solo-odd" >
+                                                <div class="odd-value"> 2.25 </div>
+                                            </div>    
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Floating Nav code below ----------------------------------- -->
+
+    <div class="flnav">
+        <div class="flnav-inner">
+
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-1" href="#">Menu</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-2" href="./index.html">Home</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-3" href="./prema-b.html">Live</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-4" href="#">Coupon</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-5" href="./register.html">Register</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+    
+</body>
+</html>

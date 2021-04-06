@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/netmob.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <script src="./js/loadx.js" defer></script>
+    <script src="./js/live.js" defer></script>
+    <title>Live</title>
+</head>
+<body>
+
+
+    <div class="loadx" id="loadx">
+        <div class="loadx-inner">
+
+            <div class="loader-box" title="loader">
+                <img class="loader-box-img" src="./images/loadx.svg" alt="loader">
+            </div>
+            <div class="loader-logo" title="loader-img">
+                <img class="loader-box-img" src="./images/sitelogo.png" alt="loader">
+            </div>
+
+        </div>
+    </div>
+    
+
+    <div class="nxnav-container">
+        <div class="nxnav-inner">
+
+            <div class="nxnav-a">
+                <div class="nxnav-a-a">
+                    <a class="nxnav-a-back" href="#" onclick="history.back()"></a>
+                    <a class="nxnav-a-sign" href="#">Sign In</a>
+                </div>
+
+                <div class="nxnav-a-b">
+                    <h3 class="nxnav-a-head">live in play</h3>
+                </div>
+
+                <div class="nxnav-a-c">
+                    <a href="./index.html" class="nxnav-a-home">Home</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="nxmain-container">
+        <div class="nxmain-inner">
+
+            <div class="nxtabs">
+                <div class="nxtabs-head">
+                    <h4 class="nxtabs-head-txt">available live</h4>
+                </div>
+                <div class="nxtabs-inner">
+
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-1"></div>
+                        <span class="nxtab-num">15</span>
+                        <div class="nxtab-txt">soccer</div>
+                    </div>
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-2"></div>
+                        <span class="nxtab-num">10</span>
+                        <div class="nxtab-txt">rugby</div>
+                    </div>
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-3"></div>
+                        <span class="nxtab-num">8</span>
+                        <div class="nxtab-txt">boxing</div>
+                    </div>
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-4"></div>
+                        <span class="nxtab-num">5</span>
+                        <div class="nxtab-txt">baseball</div>
+                    </div>
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-5"></div>
+                        <span class="nxtab-num">2</span>
+                        <div class="nxtab-txt">basketball</div>
+                    </div>
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-6"></div>
+                        <span class="nxtab-num">1</span>
+                        <div class="nxtab-txt">ice hokey</div>
+                    </div>
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-7"></div>
+                        <span class="nxtab-num">15</span>
+                        <div class="nxtab-txt">soccer</div>
+                    </div>
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-8"></div>
+                        <span class="nxtab-num">15</span>
+                        <div class="nxtab-txt">soccer</div>
+                    </div>
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-9"></div>
+                        <span class="nxtab-num">15</span>
+                        <div class="nxtab-txt">soccer</div>
+                    </div>
+                    <div class="nxtab">
+                        <div class="nxtab-ico nxtab-ico-10"></div>
+                        <span class="nxtab-num">15</span>
+                        <div class="nxtab-txt">soccer</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="nxlive-section">
+                <div class="nxlive-inner">
+
+                    <div class="nxsearch">
+                        <input type="text" class="nxsearch-input" placeholder="Filter events in this section by name">
+                        <button class="nxsearch-btn"><i class="fa fa-search"></i></button>
+                    </div>
+
+
+                    <div class="nxtype">
+                        <div class="nxtype-inner">
+
+                            <div class="nxtype-a" id="nxtype-a">
+                                <span class="nxtype-a-txt">1x2</span>
+                                <i class="fa fa-chevron-down nxtype-a-arrow"></i>
+                            </div>
+
+                            <div class="nxtype-all" id="nxtype-all">
+                                <ul class="nxtype-list">
+                                    <li class="nxtype-li"><span class="nxtype-li-txt">1X2</span></li>
+                                    <li class="nxtype-li"><span class="nxtype-li-txt">O/U</span></li>
+                                    <li class="nxtype-li"><span class="nxtype-li-txt">Next Goal</span></li>
+                                    <li class="nxtype-li"><span class="nxtype-li-txt">Total goals home team</span></li>
+                                    <li class="nxtype-li"><span class="nxtype-li-txt">Total goals away team</span></li>
+                                    <li class="nxtype-li"><span class="nxtype-li-txt">GG/NG</span></li>
+                                    <li class="nxtype-li"><span class="nxtype-li-txt">Goals home team</span></li>
+                                    <li class="nxtype-li"><span class="nxtype-li-txt">Goals away team</span></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <div class="nxmatches">
+
+                        <div class="nxcard">
+                            <div class="nxcard-a">
+                                <span class="nxcard-a-txt">JAP - J.LEAGUE</span>
+                                <i class="fa fa-chevron-down nxcard-arrow"></i>
+                            </div>
+                            <div class="nxcard-b">
+
+                                <div class="nxcard-b-top">
+                                    <div class="nxcard-b-heads">
+                                        <h5 class="nxcard-b-head">1</h5>
+                                        <h5 class="nxcard-b-head">x</h5>
+                                        <h5 class="nxcard-b-head">2</h5>
+                                    </div>
+                                </div>
+
+                                <div class="nxcard-item">
+                                    <div class="nxcard-item-top">
+
+                                        <div class="nxcard-item-a">
+                                            <span class="nxcard-badge">LIVE!</span>
+                                            <span class="nxcard-event">First Game,</span>
+                                            <span class="nxcard-num">45</span>
+                                            <span class="nxcard-ico"></span>
+                                            <span class="nxcard-name">JAP - J.LEAGUE</span>
+                                        </div>
+
+                                        <div class="nxcard-item-b">
+                                            <span class="nxcard-count">+103</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="nxcard-item-bot">
+
+                                        <div class="nxcard-teams">
+
+                                            <a href="./eventmarkets.html">
+                                            <div class="nxcard-team">
+                                                <span class="nxcard-team-name">Consadole Sapporo Consadole SapporoConsadole Sapporo</span>
+                                                <span class="nxcard-team-score">1</span>
+                                            </div>
+                                            <div class="nxcard-team">
+                                                <span class="nxcard-team-name">SHonan Bellmare</span>
+                                                <span class="nxcard-team-score">1</span>
+                                            </div>
+                                            </a>
+                                        </div>
+                                        
+                                        <div class="nxcard-odds">
+                                            <div class="nxcard-odd"><span class="nxcard-odd-num">1.42</span></div>
+                                            <div class="nxcard-odd"><span class="nxcard-odd-num">4.50</span></div>
+                                            <div class="nxcard-odd"><span class="nxcard-odd-num">7.70</span></div>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+
+
+                                <div class="nxcard-item">
+                                    <div class="nxcard-item-top">
+
+                                        <div class="nxcard-item-a">
+                                            <span class="nxcard-badge">LIVE!</span>
+                                            <span class="nxcard-event">First Game,</span>
+                                            <span class="nxcard-num">45</span>
+                                            <span class="nxcard-ico"></span>
+                                            <span class="nxcard-name">JAP - J.LEAGUE</span>
+                                        </div>
+
+                                        <div class="nxcard-item-b">
+                                            <span class="nxcard-count">+103</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="nxcard-item-bot">
+
+                                        <div class="nxcard-teams">
+
+                                            <div class="nxcard-team">
+                                                <span class="nxcard-team-name">Consadole Sapporo Consadole SapporoConsadole Sapporo</span>
+                                                <span class="nxcard-team-score">1</span>
+                                            </div>
+                                            <div class="nxcard-team">
+                                                <span class="nxcard-team-name">SHonan Bellmare</span>
+                                                <span class="nxcard-team-score">1</span>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="nxcard-odds">
+                                            <div class="nxcard-odd oddIncreased"><span class="nxcard-odd-num">1.42</span></div>
+                                            <div class="nxcard-odd oddDecreased"><span class="nxcard-odd-num">4.50</span></div>
+                                            <div class="nxcard-odd oddlocked"><span class="nxcard-odd-num">7.70</span></div>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div class="nxcard">
+                            <div class="nxcard-a">
+                                <span class="nxcard-a-txt">JAP - J.LEAGUE</span>
+                                <i class="fa fa-chevron-down nxcard-arrow"></i>
+                            </div>
+                            <div class="nxcard-b">
+
+                                <div class="nxcard-b-top">
+                                    <div class="nxcard-b-heads">
+                                        <h5 class="nxcard-b-head">1</h5>
+                                        <h5 class="nxcard-b-head">x</h5>
+                                        <h5 class="nxcard-b-head">2</h5>
+                                    </div>
+                                </div>
+
+                                <div class="nxcard-item">
+                                    <div class="nxcard-item-top">
+
+                                        <div class="nxcard-item-a">
+                                            <span class="nxcard-badge">LIVE!</span>
+                                            <span class="nxcard-event">First Game,</span>
+                                            <span class="nxcard-num">45</span>
+                                            <span class="nxcard-ico"></span>
+                                            <span class="nxcard-name">JAP - J.LEAGUE</span>
+                                        </div>
+
+                                        <div class="nxcard-item-b">
+                                            <span class="nxcard-count">+103</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="nxcard-item-bot">
+
+                                        <div class="nxcard-teams">
+
+                                            <div class="nxcard-team">
+                                                <span class="nxcard-team-name">Consadole Sapporo Consadole SapporoConsadole Sapporo</span>
+                                                <span class="nxcard-team-score">1</span>
+                                            </div>
+                                            <div class="nxcard-team">
+                                                <span class="nxcard-team-name">SHonan Bellmare</span>
+                                                <span class="nxcard-team-score">1</span>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="nxcard-odds">
+                                            <div class="nxcard-odd"><span class="nxcard-odd-num">1.42</span></div>
+                                            <div class="nxcard-odd"><span class="nxcard-odd-num">4.50</span></div>
+                                            <div class="nxcard-odd"><span class="nxcard-odd-num">7.70</span></div>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+
+
+                                <div class="nxcard-item">
+                                    <div class="nxcard-item-top">
+
+                                        <div class="nxcard-item-a">
+                                            <span class="nxcard-badge">LIVE!</span>
+                                            <span class="nxcard-event">First Game,</span>
+                                            <span class="nxcard-num">45</span>
+                                            <span class="nxcard-ico"></span>
+                                            <span class="nxcard-name">JAP - J.LEAGUE</span>
+                                        </div>
+
+                                        <div class="nxcard-item-b">
+                                            <span class="nxcard-count">+103</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="nxcard-item-bot">
+
+                                        <div class="nxcard-teams">
+
+                                            <div class="nxcard-team">
+                                                <span class="nxcard-team-name">Consadole Sapporo Consadole SapporoConsadole Sapporo</span>
+                                                <span class="nxcard-team-score">1</span>
+                                            </div>
+                                            <div class="nxcard-team">
+                                                <span class="nxcard-team-name">SHonan Bellmare</span>
+                                                <span class="nxcard-team-score">1</span>
+                                            </div>
+                                            
+                                        </div>
+                                        
+                                        <div class="nxcard-odds">
+                                            <div class="nxcard-odd"><span class="nxcard-odd-num">1.42</span></div>
+                                            <div class="nxcard-odd"><span class="nxcard-odd-num">4.50</span></div>
+                                            <div class="nxcard-odd"><span class="nxcard-odd-num">7.70</span></div>
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- Floating Nav code below ----------------------------------- -->
+
+    <div class="flnav">
+        <div class="flnav-inner">
+
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-1" href="#">Menu</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-2" href="./index.html">Home</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-3 active" href="./prema-b.html">Live</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-4" href="#">Coupon</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-5" href="#">Register</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+</body>
+</html>

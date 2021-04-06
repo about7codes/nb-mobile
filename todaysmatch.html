@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/netmob.css">
+    <link rel="stylesheet" href="./glider/glider.min.css">
+    <script src="./js/loadx.js" defer></script>
+    <script src="./glider/glider.js" defer></script>
+    <script src="./js/todaysmatch.js" defer></script>
+    <title>Todays Match</title>
+</head>
+<body>
+
+
+    <div class="loadx" id="loadx">
+        <div class="loadx-inner">
+
+            <div class="loader-box" title="loader">
+                <img class="loader-box-img" src="./images/loadx.svg" alt="loader">
+            </div>
+            <div class="loader-logo" title="loader-img">
+                <img class="loader-box-img" src="./images/sitelogo.png" alt="loader">
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="nxnav-container">
+        <div class="nxnav-inner">
+
+            <div class="nxnav-a">
+                <div class="nxnav-a-a">
+                    <a class="nxnav-a-back" href="#" onclick="history.back()"></a>
+                    <a class="nxnav-a-sign" href="#">Sign In</a>
+                </div>
+
+                <div class="nxnav-a-b">
+                    <a href="./index.html" class="nxnav-a-link">
+                        <img class="nxnav-a-logo" src="./images/sitelogo.png" alt="sitelogo">
+                    </a>
+                </div>
+
+                <div class="nxnav-a-c">
+                    <span class="nxnav-a-menu">Menu</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="nxmain-container">
+        <div class="nxmain-inner">
+
+            <div class="nxchoose-container">
+                <div class="nxchoose-inner">
+                    <div class="nxchoose-head">
+                        <h2 class="nxchoose-head-txt">available sports today</h2>
+                    </div>
+                    <!-- using glider.js library for carosel/slider  -->
+                    <div class="ncglider-contain">
+                        <div class="ncglider" id="">
+
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <!-- Add class "nxc-ico-1", "nxc-ico-2", "nxc-ico-3" and so-on to change icons via CSS -->
+                                  <span class="nxchoose-ico nxc-ico-1"></span>
+                                  <span class="nxchoose-num">15</span>
+                                  <span class="nxchoose-txt">volleyball</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-2"></span>
+                                  <span class="nxchoose-num">10</span>
+                                  <span class="nxchoose-txt">rugby</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-3"></span>
+                                  <span class="nxchoose-num">19</span>
+                                  <span class="nxchoose-txt">boxing</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-4"></span>
+                                  <span class="nxchoose-num">8</span>
+                                  <span class="nxchoose-txt">baseball</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-5"></span>
+                                  <span class="nxchoose-num">15</span>
+                                  <span class="nxchoose-txt">ice hockey</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-6"></span>
+                                  <span class="nxchoose-num">7</span>
+                                  <span class="nxchoose-txt">table tennis</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-7"></span>
+                                  <span class="nxchoose-num">1</span>
+                                  <span class="nxchoose-txt">volleyball</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-8"></span>
+                                  <span class="nxchoose-num">5</span>
+                                  <span class="nxchoose-txt">rugby</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-9"></span>
+                                  <span class="nxchoose-num">4</span>
+                                  <span class="nxchoose-txt">boxing</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-10"></span>
+                                  <span class="nxchoose-num">6</span>
+                                  <span class="nxchoose-txt">volleyball</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-11"></span>
+                                  <span class="nxchoose-num">2</span>
+                                  <span class="nxchoose-txt">rugby</span>
+                              </a>
+                          </div>
+                          <div class="nxchoose-a">
+                              <a class="nxchoose-link" href="#">
+                                  <span class="nxchoose-ico nxc-ico-12"></span>
+                                  <span class="nxchoose-num">1</span>
+                                  <span class="nxchoose-txt">boxing</span>
+                              </a>
+                          </div>
+
+
+                          
+                          
+                        </div>
+                      
+                        <button aria-label="Previous" class="ncglider-prev"><i class="fa fa-chevron-left"></i></button>
+                        <button aria-label="Next" class="ncglider-next"><i class="fa fa-chevron-right"></i></button>
+                        <!-- <div role="tablist" class="dots"></div> -->
+                      </div>
+                </div>
+            </div>
+
+
+            <div class="dayswitch">
+                <div class="dayswitch-inner">
+                    <div class="dayswitch-btn dayswitch-left">
+                        <i class="fa fa-caret-left"></i>
+                    </div>
+                    <div class="dayswitch-content">
+                        <div class="dayswitch-day">Today's matches</div>
+                        <div class="dayswitch-date">Nov 16, 2020</div>
+                    </div>
+                    <div class="dayswitch-btn dayswitch-right">
+                        <i class="fa fa-caret-right"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mkt-container">
+                <div class="mkt-inner">
+
+                    <div class="mkt-a">
+                        <div class="mkt-a-left">
+                            <div class="mkt-info">
+                                <i class="fa fa-info-circle" id="mkt-info-btn"></i>
+                            </div>
+                            <div class="mkt-title">popular markets</div>
+                        </div>
+                        <div class="mkt-a-right" id="ch-mkt">
+                            <div class="mkt-title">Change Market</div>
+                            <div class="mkt-arrow" id="mkt-arrow">
+                                <i class="fa fa-chevron-circle-down"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mkt-info-box" id="mkt-info-box">
+                        <div class="mkt-info-box-inner">
+                            <span class='mkt-info-head'>1X2</span>
+                        <p class="mkt-info-txt">You have to predict the outcome of the match in 90 minutes. The bet offers three possible outcomes: 1 (home team wins the match); X (teams draw), 2 (away team wins the match)</p>
+                        </div>
+                     </div>
+
+                    <div class="mkt-b open" id="mkt-b">
+                        <div class="accordion-inner">
+
+                           <div class="accordion-box">
+
+                              <div class="accordion-toggle collapsible">
+                                 <a class="accordion-toggle--item">
+                                    <p>Popular Markets</p>
+                                 </a>
+                              </div>
+
+                              <div class="accordion-content mkt-b-box">
+                                 <div class="accordion-inner mkt-b-items">
+                                    
+                                       <div class="mkt-b-item active">1X2</div>
+                                       <div class="mkt-b-item">Double Chance</div>
+                                       <div class="mkt-b-item">Over / Under</div>
+                                    
+                                    
+                                       <div class="mkt-b-item">Goal / No Goal</div>
+                                       <div class="mkt-b-item">Odd/Even</div>
+                                       <div class="mkt-b-item">Correct Score</div>
+                                    
+                                 </div>
+                              </div>
+
+                           </div>
+
+                           <div class="accordion-box">
+                              <div class="accordion-toggle">
+                                 <a class="accordion-toggle--item">
+                                    <p>1st Half Markets</p>
+                                 </a>
+                              </div>
+                              <div class="accordion-content mkt-b-box">
+                                 <div class="accordion-inner mkt-b-items">
+                                    
+                                       <div class="mkt-b-item">1st Half - 1X2</div>
+                                       <div class="mkt-b-item">1st Half - Double Chance</div>
+                                       <div class="mkt-b-item">1st Half - Over/Under</div>
+                                    
+                                    
+                                       <div class="mkt-b-item">1st Half - Goal / No Goal</div>
+                                       <div class="mkt-b-item">1st Half - Correct Score</div>
+                                       <div class="mkt-b-item">1st Half - Total Goals</div>
+                                    
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+                    <div class="mkt-c">
+                        <div class="mkt-c-btn active">
+                            <p>1X2</p>
+                        </div>
+                        <div class="mkt-c-btn">
+                            <p>Double Chance</p>
+                        </div>
+                        <div class="mkt-c-btn">
+                            <p>Over / Under</p>
+                        </div>
+                        <div class="mkt-c-btn">
+                            <p>Goal / No Goal</p>
+                        </div>
+                        <div class="mkt-c-btn">
+                            <p>Odd/Even</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+
+            <div class="bx-container">
+                <div class="bx-inner">
+
+                    <div class="bx-top" id="bx-top">
+                        <div class="bx-top-inner">
+                            <h4 class="bx-top-head">Today's Match</h4>
+                            <span class="bx-top-arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="bx-down" id="bx-down">
+                        <div class="bx-down-inner">
+
+                            <div class="bx-down-heads">
+
+                                <div class="bx-down-heada">
+                                    <h5 class="bx-down-title">Today</h5>
+                                </div>
+
+                                <div class="bx-down-headb">
+                                    <h5 class="bx-down-head">1</h5>
+                                    <h5 class="bx-down-head">X</h5>
+                                    <h5 class="bx-down-head">2</h5>
+                                </div>
+
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Floating Nav code below ----------------------------------- -->
+
+    <div class="flnav">
+        <div class="flnav-inner">
+
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-1" href="#">Menu</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-2" href="./index.html">Home</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-3" href="./prema-b.html">Live</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-4" href="#">Coupon</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-5" href="#">Register</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    
+
+</body>
+</html>

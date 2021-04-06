@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
+    <link rel="stylesheet" href="./css/netmob.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <script src="./js/loadx.js" defer></script>
+    <script src="./js/lessthan2.js" defer></script>
+    <title>Odds Filter</title>
+</head>
+<body>
+
+
+    <div class="loadx" id="loadx">
+        <div class="loadx-inner">
+
+            <div class="loader-box" title="loader">
+                <img class="loader-box-img" src="./images/loadx.svg" alt="loader">
+            </div>
+            <div class="loader-logo" title="loader-img">
+                <img class="loader-box-img" src="./images/sitelogo.png" alt="loader">
+            </div>
+
+        </div>
+    </div>
+
+    <div class="nxnav-container">
+        <div class="nxnav-inner">
+
+            <div class="nxnav-a">
+                <div class="nxnav-a-a">
+                    <a class="nxnav-a-back" href="#" onclick="history.back()"></a>
+                    <a class="nxnav-a-sign" href="#">Sign In</a>
+                </div>
+
+                <div class="nxnav-a-b">
+                    <a href="./index.html" class="nxnav-a-link">
+                        <img class="nxnav-a-logo" src="./images/sitelogo.png" alt="sitelogo">
+                    </a>
+                </div>
+
+                <div class="nxnav-a-c">
+                    <span class="nxnav-a-menu">Menu</span>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="nxmain-container">
+        <div class="nxmain-inner">
+
+
+            <div class="simhead">
+                <h4 class="simhead-txt">&lt; 2 Odds Filter</h4>
+            </div>
+            
+
+            <div class="nxmaxodd">
+                <div class="nxmaxodd-inner">
+                    <div class="nxmaxodd-head">
+                        <h5 class="nxmaxodd-head-txt">Choose the max odd to show</h5>
+                    </div>
+                    <div class="nxmaxodd-boxes">
+                        <div class="nxmaxodd-box active">
+                            <h6 class="nxmaxodd-box-num">26</h6>
+                        </div>
+                        <div class="nxmaxodd-box">
+                            <h6 class="nxmaxodd-box-num">8</h6>
+                        </div>
+                        <div class="nxmaxodd-box">
+                            <h6 class="nxmaxodd-box-num">6</h6>
+                        </div>
+                        <div class="nxmaxodd-box">
+                            <h6 class="nxmaxodd-box-num">6</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nxmaxodd">
+                <div class="nxmaxodd-inner">
+                    <div class="nxmaxodd-head">
+                        <h5 class="nxmaxodd-head-txt">Choose the Time Range you wish to show</h5>
+                    </div>
+                    <div class="nxmaxodd-boxes">
+                        <div class="nxmaxodd-box active">
+                            <h6 class="nxmaxodd-box-num">1 hr</h6>
+                        </div>
+                        <div class="nxmaxodd-box">
+                            <h6 class="nxmaxodd-box-num">3 hr</h6>
+                        </div>
+                        <div class="nxmaxodd-box">
+                            <h6 class="nxmaxodd-box-num">Today</h6>
+                        </div>
+                        <div class="nxmaxodd-box">
+                            <h6 class="nxmaxodd-box-num">3 Days</h6>
+                        </div>
+                        <div class="nxmaxodd-box">
+                            <h6 class="nxmaxodd-box-num">All</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="som-container">
+                <div class="som-inner">
+                    <div class="som-box active">
+                        <h4 class="som-box-txt">Soccer</h4>
+                        <h4 class="som-box-num">1</h4>
+                    </div>
+                    <div class="som-box">
+                        <h4 class="som-box-txt">Basketball</h4>
+                        <h4 class="som-box-num">2</h4>
+                    </div>
+                    <div class="som-box">
+                        <h4 class="som-box-txt">Ice Hockey</h4>
+                        <h4 class="som-box-num">8</h4>
+                    </div>
+                    <div class="som-box">
+                        <h4 class="som-box-txt">Volleyball</h4>
+                        <h4 class="som-box-num">12</h4>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="bx-container">
+                <div class="bx-inner">
+
+                    <div class="bx-top" id="bx-top">
+                        <div class="bx-top-inner">
+                            <h4 class="bx-top-head">Most Popular Bets</h4>
+                            <span class="bx-top-arrow"></span>
+                        </div>
+                    </div>
+
+                    <div class="bx-down" id="bx-down">
+                        <div class="bx-down-inner">
+
+                            <div class="bx-down-heads">
+
+                                <div class="bx-down-heada">
+                                    <!-- <h5 class="bx-down-title">Today</h5> -->
+                                </div>
+
+                                <div class="bx-down-headb">
+                                    <h5 class="bx-down-head">1</h5>
+                                    <h5 class="bx-down-head">X</h5>
+                                    <h5 class="bx-down-head">2</h5>
+                                </div>
+
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="bxbox">
+                                <div class="bxbox-inner">
+
+                                    <div class="bxbox-a">
+                                        <span class="bxbox-a-dt">08.10.20</span>
+                                        <span class="bxbox-a-tm">17:22</span>
+                                        <span class="bxbox-a-chart"></span>
+                                    </div>
+                                    
+                                    <div class="bxbox-b">
+                                        <div class="bxbox-b-top">
+                                            <span class="bxbox-b-ico"></span>
+                                            <span class="bxbox-b-leagues">Nations League: UAEFA Nations League</span>
+                                        </div>
+                                        <div class="bxbox-b-bot">
+                                            <span class="bxbox-b-teams">Spain - Switzerland</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="bxbox-c">
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                        <div class="bxbox-c-odd">
+                                            <span class="bxbox-c-num">1.42</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Floating Nav code below ----------------------------------- -->
+
+    <div class="flnav">
+        <div class="flnav-inner">
+
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-1" href="#">Menu</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-2" href="./index.html">Home</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-3" href="./prema-b.html">Live</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-4" href="#">Coupon</a>
+                </div>
+            </div>
+            <div class="flnav-item">
+                <div class="flnav-item-inner">
+                    <a class="flnav-item-link flnav-5" href="#">Register</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    
+</body>
+</html>
